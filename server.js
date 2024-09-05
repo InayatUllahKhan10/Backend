@@ -35,4 +35,4 @@ mongoose.connect(DB_URI , {
 });
 
 // app.use("/api/user" , userRoute);
-app.use(userRoute);
+app.use("/",userRoute);
